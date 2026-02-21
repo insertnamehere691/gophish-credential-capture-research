@@ -10,10 +10,20 @@ This project is a high-fidelity landing page designed for **authorized** social 
 
 ## Analysis & Findings
 During testing, I successfully tracked the full attack chain:
-1. **Email Sent:** (Verified in Gophish Dashboard)
-2. **Email Opened:** (Verified via tracking pixel)
-3. **Link Clicked:** (Confirmed 1 unique click)
-4. **Data Submitted:** (Captured dummy credentials)
+1. **Email Sent:** Verified in Gophish Dashboard.
+2. **Email Opened:** Verified via tracking pixel.
+3. **Link Clicked:** Confirmed 1 unique click.
+4. **Data Submitted:** Successfully captured dummy credentials (Interception confirmed).
+
+### Simulation Visuals
+
+**User Interface:**
+This is the high-fidelity landing page used to simulate a standard Microsoft authentication flow.
+![Microsoft Login UI](Screenshot%202026-02-21%20132738.png)
+
+**Campaign Metrics:**
+The Gophish dashboard validates the successful capture of data and completion of the attack lifecycle.
+![Gophish Dashboard](Screenshot%202026-02-21%20132812.png)
 
 ## Ethical Use
 This repository is for educational purposes and authorized penetration testing only. Unauthorized use is strictly prohibited.
