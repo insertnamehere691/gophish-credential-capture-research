@@ -19,12 +19,12 @@ During testing, I successfully tracked the full attack chain:
 
 **User Interface:**
 This is the high-fidelity landing page used to simulate a standard Microsoft authentication flow.
-![Microsoft Login UI](<img width="1894" height="891" alt="Screenshot 2026-02-21 132738" src="https://github.com/user-attachments/assets/5ab5ad10-ca53-4d54-9dfa-885309370777" />)
+![Microsoft Login UI](Screenshot%202026-02-21%20132738.png)
 
 
 **Campaign Metrics:**
 The Gophish dashboard validates the successful capture of data and completion of the attack lifecycle.
-![Gophish Dashboard](<img width="1906" height="913" alt="Screenshot 2026-02-21 132812" src="https://github.com/user-attachments/assets/cf2ba1e2-6017-4203-9473-7dc854e6938a" />)
+![Gophish Dashboard](Screenshot%202026-02-21%20132812.png)
 
 ## Remediation & Defensive Strategies
 
